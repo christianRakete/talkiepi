@@ -3,17 +3,18 @@ package talkiepi
 import (
 	"crypto/tls"
 
-	"github.com/stianeikeland/go-rpio"
+	"github.com/dchote/gpio"
 	"github.com/dchote/gumble/gumble"
 	"github.com/dchote/gumble/gumbleopenal"
 )
 
 // Raspberry Pi GPIO pin assignments (CPU pin definitions)
 const (
-	OnlineLEDPin       uint = 26  // real GPIO.25
-	ParticipantsLEDPin uint = 0   // real GPIO.27
-	TransmitLEDPin     uint = 16  // not used now
-	ButtonPin          uint = 22  // real GPIO.3
+	OnlineLEDPin       uint = 18
+	ParticipantsLEDPin uint = 23
+	TransmitLEDPin     uint = 24
+	ButtonPin          uint = 17
+	SeeedStudio        bool = true
 )
 
 type Talkiepi struct {
@@ -32,9 +33,9 @@ type Talkiepi struct {
 	IsTransmitting bool
 
 	GPIOEnabled     bool
-	OnlineLED       rpio.Pin
-	ParticipantsLED rpio.Pin
-	TransmitLED     rpio.Pin
-	Button		rpio.Pin
-	ButtonState     rpio.State
+	OnlineLED       gpio.Pin
+	ParticipantsLED gpio.Pin
+	TransmitLED     gpio.Pin
+	Button          gpio.Pin
+	ButtonState     uint
 }
