@@ -10,13 +10,13 @@ import (
 	// "github.com/periph/devices/apa102"
 	// "github.com/periph/host"
 
-	"periph.io/x/periph/conn/physic@v3.6.8"
-	"periph.io/x/periph/conn/spi@v3.6.8"
-	"periph.io/x/periph/conn/spi/spireg@v3.6.8"
-	"periph.io/x/periph/devices/apa102@v3.6.8"
-	"periph.io/x/periph/host@v3.6.8"
+	// "periph.io/x/periph/conn/physic@v3.6.8"
+	// "periph.io/x/periph/conn/spi@v3.6.8"
+	// "periph.io/x/periph/conn/spi/spireg@v3.6.8"
+	// "periph.io/x/periph/devices/apa102@v3.6.8"
+	// "periph.io/x/periph/host@v3.6.8"
 
-	// "periph.io/x/periph@v3.6.8"
+	"periph.io/x/periph@v3.6.8"
 )
 
 const (
