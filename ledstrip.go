@@ -4,11 +4,19 @@ import (
 	"fmt"
 	"strconv"
 
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/spi"
-	"periph.io/x/periph/conn/spi/spireg"
-	"periph.io/x/periph/devices/apa102"
-	"periph.io/x/periph/host"
+	"github.com/periph/conn/physic"
+	"github.com/periph/conn/spi"
+	"github.com/periph/conn/spi/spireg"
+	"github.com/periph/devices/apa102"
+	"github.com/periph/host"
+
+	"periph.io/x/periph/conn/physic@v3.6.8"
+	"periph.io/x/periph/conn/spi@v3.6.8"
+	"periph.io/x/periph/conn/spi/spireg@v3.6.8"
+	"periph.io/x/periph/devices/apa102@v3.6.8"
+	"periph.io/x/periph/host@v3.6.8"
+
+	// "periph.io/x/periph@v3.6.8"
 )
 
 const (
