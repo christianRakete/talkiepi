@@ -4,11 +4,12 @@ import (
 	"fmt"
 	"strconv"
 
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/spi"
-	"periph.io/x/periph/conn/spi/spireg"
-	"periph.io/x/periph/devices/apa102"
-	"periph.io/x/periph/host"
+	"github.com/christianRakete/periph/conn/physic"
+	"github.com/christianRakete/periph/conn/spi"
+	"github.com/christianRakete/periph/conn/spi/spireg"
+	"github.com/christianRakete/periph/devices/apa102"
+	"github.com/christianRakete/periph/host"
+	
 
 )
 

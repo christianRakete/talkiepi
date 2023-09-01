@@ -6,7 +6,6 @@ import (
 	"flag"
 	"fmt"
 	"github.com/dchote/gumble/gumble"
-	// "github.com/dchote/gumble/opus"
 	"github.com/christianRakete/talkiepi"
 	"os"
 	"os/signal"
