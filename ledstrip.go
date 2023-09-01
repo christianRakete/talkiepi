@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/periph/conn/physic"
-	"github.com/periph/conn/spi"
-	"github.com/periph/conn/spi/spireg"
-	"github.com/periph/devices/apa102"
-	"github.com/periph/host"
+	// "github.com/periph/conn/physic"
+	// "github.com/periph/conn/spi"
+	// "github.com/periph/conn/spi/spireg"
+	// "github.com/periph/devices/apa102"
+	// "github.com/periph/host"
 
 	"periph.io/x/periph/conn/physic@v3.6.8"
 	"periph.io/x/periph/conn/spi@v3.6.8"
