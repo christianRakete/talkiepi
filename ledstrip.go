@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/periph/conn/physic"
-	"github.com/periph/conn/spi"
-	"github.com/periph/conn/spi/spireg"
-	"github.com/periph/devices/apa102"
-	"periph.io/x/host"
+	"periph.io/x/periph/conn/physic"
+	"periph.io/x/periph/conn/spi"
+	"periph.io/x/periph/conn/spi/spireg"
+	"periph.io/x/periph/devices/apa102"
+	"periph.io/x/periph/host"
 )
 
 const (
