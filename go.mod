@@ -1,4 +1,4 @@
-module github.com/christianRakete/talkiepi
+module talkiepi
 
 go 1.16
 
