@@ -8,7 +8,7 @@ import (
 	"github.com/periph/conn/spi"
 	"github.com/periph/conn/spi/spireg"
 	"github.com/periph/devices/apa102"
-	"github.com/periph/host"
+	"periph.io/x/host"
 )
 
 const (
